@@ -1,19 +1,28 @@
-# flutter_application_2
+# Stadium Hero Flutter App
+this is a simple flutter app that shows 4 cricket stadiums in a list. when you tap on any stadium, it opens a new page with a nice hero animation and shows the image and info about that stadium.
 
-A new Flutter project.
+# Features
+uses hero animation
 
-## Getting Started
+shows local images from assets
 
-This project is a starting point for a Flutter application.
+has stadium info on second screen
 
-A few resources to get you started if this is your first Flutter project:
+simple and easy UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# How to Run
+make sure flutter is installed
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Stadium_Hero" 
-"# Stadium_Hero" 
-"# Stadium_Hero" 
+open project in vscode or android studio
+
+# go to pubspec.yaml and add this to include your images:
+flutter:
+  assets:
+    - assets/Melbourne.JPEG
+    - assets/Lords.JPEG
+    - assets/Eden garden.JPEG
+    - assets/Gaddafi.JPEG
+
+# run this in terminal:
+flutter pub get
+flutter run
