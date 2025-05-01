@@ -15,7 +15,7 @@ make sure flutter is installed
 
 open project in vscode or android studio
 
-# go to pubspec.yaml and add this to include your images:
+# Go to pubspec.yaml and add this to include your images:
 flutter:
   assets:
     - assets/Melbourne.JPEG
@@ -23,6 +23,6 @@ flutter:
     - assets/Eden garden.JPEG
     - assets/Gaddafi.JPEG
 
-# run this in terminal:
+# Run this in terminal:
 flutter pub get
 flutter run
